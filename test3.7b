@@ -1,0 +1,6 @@
+mov 8 bx
+mov 3 ax
+add 2 ax
+mov ax [bx]
+mov [bx] cx
+push cx

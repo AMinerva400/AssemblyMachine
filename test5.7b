@@ -1,0 +1,11 @@
+#program to calculate 6! 720
+push ax
+pop ax
+push 3
+push 4
+push 5
+pop ax
+pop bx
+pop dx
+idiv ax bx
+push ax

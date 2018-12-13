@@ -1,0 +1,9 @@
+#calculate GCD of 12 and 8
+mov 12 cx
+mov 8 bx
+mov cx ax
+idiv cx bx
+mov dx cx
+mov ax bx
+jnz 2
+push bx

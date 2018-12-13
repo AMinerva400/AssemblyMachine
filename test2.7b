@@ -1,0 +1,4 @@
+push 4
+pop ax
+mov [3] [cx]
+pop bx
